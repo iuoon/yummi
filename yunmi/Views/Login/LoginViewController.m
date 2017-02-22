@@ -6,4 +6,8 @@
 //  Copyright © 2017年 吴永正. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "LoginViewController.h"
+
+@implementation LoginViewController
+
+@end

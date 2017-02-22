@@ -13,6 +13,8 @@
 		EC14E5FF1E529B720053639D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14E5FE1E529B720053639D /* SearchViewController.m */; };
 		EC14E6011E52A11B0053639D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC14E6001E52A11B0053639D /* Login.storyboard */; };
 		EC14E6031E52A2050053639D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14E6021E52A2050053639D /* LoginViewController.m */; };
+		EC93F6511E56F6A000B54338 /* MyAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC93F6501E56F6A000B54338 /* MyAccount.storyboard */; };
+		EC93F6541E57060A00B54338 /* MyAcctViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC93F6531E57060A00B54338 /* MyAcctViewController.m */; };
 		ECE8AF921E51B64000DBBF92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8AF911E51B64000DBBF92 /* main.m */; };
 		ECE8AF951E51B64000DBBF92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8AF941E51B64000DBBF92 /* AppDelegate.m */; };
 		ECE8AF981E51B64000DBBF92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE8AF971E51B64000DBBF92 /* ViewController.m */; };
@@ -53,6 +55,9 @@
 		EC14E6001E52A11B0053639D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Views/Login/Login.storyboard; sourceTree = "<group>"; };
 		EC14E6021E52A2050053639D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Views/Login/LoginViewController.m; sourceTree = "<group>"; };
 		EC14E6041E52A21A0053639D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Views/Login/LoginViewController.h; sourceTree = "<group>"; };
+		EC93F6501E56F6A000B54338 /* MyAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MyAccount.storyboard; path = Views/Login/MyAccount.storyboard; sourceTree = "<group>"; };
+		EC93F6521E5705ED00B54338 /* MyAcctViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyAcctViewController.h; path = Views/Login/MyAcctViewController.h; sourceTree = "<group>"; };
+		EC93F6531E57060A00B54338 /* MyAcctViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAcctViewController.m; path = Views/Login/MyAcctViewController.m; sourceTree = "<group>"; };
 		ECE8AF8D1E51B64000DBBF92 /* yunmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yunmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE8AF911E51B64000DBBF92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECE8AF931E51B64000DBBF92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +164,9 @@
 				EC14E6001E52A11B0053639D /* Login.storyboard */,
 				EC14E6021E52A2050053639D /* LoginViewController.m */,
 				EC14E6041E52A21A0053639D /* LoginViewController.h */,
+				EC93F6501E56F6A000B54338 /* MyAccount.storyboard */,
+				EC93F6521E5705ED00B54338 /* MyAcctViewController.h */,
+				EC93F6531E57060A00B54338 /* MyAcctViewController.m */,
 			);
 			path = yunmi;
 			sourceTree = "<group>";
@@ -307,6 +315,7 @@
 				ECE8AFA01E51B64000DBBF92 /* Assets.xcassets in Resources */,
 				ECE8AF9B1E51B64000DBBF92 /* Main.storyboard in Resources */,
 				EC14E5FC1E529ACD0053639D /* Search.storyboard in Resources */,
+				EC93F6511E56F6A000B54338 /* MyAccount.storyboard in Resources */,
 				EC14E5F81E5297780053639D /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +393,7 @@
 				ECE8AF981E51B64000DBBF92 /* ViewController.m in Sources */,
 				EC14E6031E52A2050053639D /* LoginViewController.m in Sources */,
 				EC14E5FF1E529B720053639D /* SearchViewController.m in Sources */,
+				EC93F6541E57060A00B54338 /* MyAcctViewController.m in Sources */,
 				ECE8AF951E51B64000DBBF92 /* AppDelegate.m in Sources */,
 				ECE8AF921E51B64000DBBF92 /* main.m in Sources */,
 			);

@@ -73,9 +73,11 @@
 //    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Information" message:@"Hellworld" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 //    [alert show];
     NSLog(@"跳转搜索界面");
-    UIStoryboard* storyboard=[UIStoryboard storyboardWithName:@"Search" bundle:nil];
+    UIStoryboard* storyboard=[UIStoryboard storyboardWithName:@"MyAccount" bundle:nil];
     self.view.window.rootViewController=storyboard.instantiateInitialViewController;
 }
+
+
 
 
 @end
