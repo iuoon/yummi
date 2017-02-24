@@ -6,12 +6,12 @@
 //  Copyright © 2017年 吴永正. All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "ViewController.h"
 #import "SDCycleScrollView.h"
 
 
 @interface ViewController () <SDCycleScrollViewDelegate>
-
 
 
 @end
@@ -20,8 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [AppDelegate storyBoradAutoLay:self.view];
     
-    UIScrollView *demoContainerView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 70, self.view.bounds.size.width,self.view.bounds.size.height)];
+    CGFloat sdcwight=0;
+    if (self.view.frame.size.width>320) {
+        sdcwight=90;
+    }else{
+        sdcwight=70;
+    }
+    UIScrollView *demoContainerView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, sdcwight, self.view.bounds.size.width,self.view.bounds.size.height)];
     demoContainerView.contentSize = CGSizeMake(self.view.frame.size.width, 20);
     [self.view addSubview:demoContainerView];
     

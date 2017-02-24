@@ -17,6 +17,11 @@
 
 - (void)saveContext;
 
+@property float autoSizeScaleX;
+@property float autoSizeScaleY;
+
++ (void)storyBoradAutoLay:(UIView *)allView;
+
 
 @end
 
