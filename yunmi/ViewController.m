@@ -76,15 +76,22 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)search:(UIButton *)sender {
 //    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Information" message:@"Hellworld" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 //    [alert show];
-    NSLog(@"跳转搜索界面");
+    NSLog(@"跳转我的界面");
     UIStoryboard* storyboard=[UIStoryboard storyboardWithName:@"MyAccount" bundle:nil];
     self.view.window.rootViewController=storyboard.instantiateInitialViewController;
 }
 
 
-
+- (IBAction)MyInfo:(UIButton *)sender {
+    //    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Information" message:@"Hellworld" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    //    [alert show];
+    NSLog(@"跳转搜索界面");
+    UIStoryboard* storyboard=[UIStoryboard storyboardWithName:@"MyAccount" bundle:nil];
+    self.view.window.rootViewController=storyboard.instantiateInitialViewController;
+}
 
 @end

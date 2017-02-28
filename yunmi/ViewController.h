@@ -12,6 +12,8 @@
 
 -(IBAction)search:(id)sender;
 
+-(IBAction)MyInfo:(id)sender;
+
 
 
 @end
